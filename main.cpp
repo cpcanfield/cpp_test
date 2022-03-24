@@ -9,7 +9,11 @@ using namespace std;
 
 
 
+
 int main() {
     cout << "Hello world!!!!" << endl;
+    bird robin("Robin");
+    cout << robin.get_seeds() << endl;
+
     return 0;
 }
