@@ -4,3 +4,14 @@
 
 
 #include "bird.h"
+using namespace std;
+#include<string>
+
+    bird:: bird(std::string species){}
+
+
+
+    int bird::get_seeds() {
+        return this -> seeds;
+    }
+
